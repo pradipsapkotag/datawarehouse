@@ -464,7 +464,7 @@ select * from SALES.SALES_WAREHOUSE.SEGMENT_DIM;
 
 
 
---------------creating address dimension table------------------
+--------------creating sales fact table------------------
 
 create or replace table SALES.SALES_WAREHOUSE.SALES_FACT(
     "Row ID" integer primary key,
